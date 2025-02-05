@@ -118,7 +118,7 @@ for i in [1..num] do
     fi;
     deg := DegOfPoly(x, k);
     if deg < ord then
-      Print("Permutations: ", x, ", degree of min poly = ", deg, " in representaion ", k, " with dimension ", ()^tbl[k],  "\n");
+      Print("Permutation: ", x, ", degree of min poly = ", deg, " in representaion ", k, " with dimension ", ()^tbl[k],  "\n");
     fi;
   od;
 od;
